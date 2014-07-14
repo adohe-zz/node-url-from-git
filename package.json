@@ -20,6 +20,10 @@
     "github",
     "company"
   ],
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*"
+  },
   "author": "TonyAdo <coolhzb@163.com>",
   "license": "MIT",
   "bugs": {
