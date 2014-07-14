@@ -1,0 +1,29 @@
+{
+  "name": "node-url-from-git",
+  "version": "1.0.0",
+  "description": "parse url from git repo, support github.com and also company specific git repo url",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AdoHe/node-url-from-git.git"
+  },
+  "keywords": [
+    "git",
+    "url",
+    "parser",
+    "github",
+    "company"
+  ],
+  "author": "TonyAdo <coolhzb@163.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AdoHe/node-url-from-git/issues"
+  },
+  "homepage": "https://github.com/AdoHe/node-url-from-git"
+}
