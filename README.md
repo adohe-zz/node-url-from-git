@@ -47,4 +47,12 @@ describe('index.test.js', function () {
       parser(url).should.equal('dev.sh.westudio.com/framework/Tunnel');
     });
 })
+
+describe('re', function () {
+    it('should get the url parse regex', function () {
+        parser.re.source.should.equal(
+            /^(?:https?:\/\/|git:\/\/)?(?:[^@]+@)?((?:\w+.?){1,}\w+)[:\/]([^\/]+\/[^\/]+?|[0-9]+)$/.source
+        )
+    });
+})
 ```
