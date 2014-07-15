@@ -1,4 +1,5 @@
 # node-url-from-git
+![Build Status](https://travis-ci.org/AdoHe/node-url-from-git.svg?branch=master)
 
 ```js
 describe('index.test.js', function () {
