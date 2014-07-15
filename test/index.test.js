@@ -19,7 +19,7 @@ describe('index.test.js', function () {
       parser(url).should.equal('github.com/Empeeric/i18n-node');
     });
 
-    it('should support https://*.git', function () {
+    it('should parse https://*.git', function () {
       var url = 'https://jpillora@github.com/banchee/tranquil.git';
       parser(url).should.equal('github.com/banchee/tranquil');
     });
